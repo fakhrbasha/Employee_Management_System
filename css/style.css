@@ -1,0 +1,68 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --colorSec : rgb(0, 131, 124);
+}
+body{
+    background-color: rgb(0, 0, 29);
+}
+.header{
+    border-bottom:1px solid var(--colorSec);
+    .container h2{
+        color: var(--colorSec);
+        font-size: 40px;
+    }
+}
+.btn-primary{
+    background-color: var(--colorSec);
+    border: 1px solid var(--colorSec);
+    &:hover{
+        background-color: rgb(0, 73, 70);
+        border: 1px solid  rgb(0, 73, 70);
+    }
+}
+select.form-select:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+input.form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.inputCreate{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    .items{
+        width: 75%;
+        height: 77%;
+        background-color: rgb(204, 204, 204);
+    }
+}
+.Image-Container{
+    border: 2px solid black;
+    padding: 15px 0;
+}
+.HeadCreate{
+    background-color: var(--colorSec);
+    .fa-circle-xmark{
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
+table.table,
+table.table thead,
+table.table tbody,
+table.table tr,
+table.table td,
+table.table th {
+    background-color: transparent !important;
+    color: rgb(255, 255, 255);
+}
